@@ -1,4 +1,4 @@
-name: sarscov2-artic-illumina-pipeline-plugin
+name: irida-plugin-fastp
 
 on:
   push:
