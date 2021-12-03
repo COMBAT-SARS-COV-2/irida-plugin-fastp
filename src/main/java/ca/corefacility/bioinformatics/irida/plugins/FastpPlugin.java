@@ -27,7 +27,7 @@ public class FastpPlugin extends Plugin {
 	 */
 	public static final AnalysisType DEFAULT = new AnalysisType("FASTP");
 
-	public ArticIlluminaPlugin(PluginWrapper wrapper) {
+	public FastpPlugin(PluginWrapper wrapper) {
 		super(wrapper);
 	}
 
