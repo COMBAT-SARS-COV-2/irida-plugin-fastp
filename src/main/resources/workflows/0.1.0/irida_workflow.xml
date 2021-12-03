@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iridaWorkflow>
+  <id>2dd2e11a-0df4-4132-91f1-0ef5390c2886</id>
+  <name>fastp</name>
+  <version>0.1.0</version>
+  <analysisType>FASTP</analysisType>
+  <inputs>
+    <sequenceReadsPaired>sequence_reads_list_paired</sequenceReadsPaired>
+    <requiresSingleSample>true</requiresSingleSample>
+  </inputs>
+  <parameters>
+    <parameter name="fastp-1-single_paired.adapter_trimming_options.adapter_sequence2" defaultValue="">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="single_paired.adapter_trimming_options.adapter_sequence2"/>
+    </parameter>
+    <parameter name="fastp-1-read_mod_options.umi_processing.umi" defaultValue="false">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="read_mod_options.umi_processing.umi"/>
+    </parameter>
+    <parameter name="fastp-1-filter_options.low_complexity_filter.enable_low_complexity_filter" defaultValue="false">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="filter_options.low_complexity_filter.enable_low_complexity_filter"/>
+    </parameter>
+    <parameter name="fastp-1-single_paired.adapter_trimming_options.adapter_sequence1" defaultValue="">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="single_paired.adapter_trimming_options.adapter_sequence1"/>
+    </parameter>
+    <parameter name="fastp-1-overrepresented_sequence_analysis.overrepresentation_analysis" defaultValue="false">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="overrepresented_sequence_analysis.overrepresentation_analysis"/>
+    </parameter>
+    <parameter name="fastp-1-read_mod_options.cutting_by_quality_options.cut_by_quality3" defaultValue="false">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="read_mod_options.cutting_by_quality_options.cut_by_quality3"/>
+    </parameter>
+    <parameter name="fastp-1-read_mod_options.polyg_tail_trimming.trimming_select" defaultValue="">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="read_mod_options.polyg_tail_trimming.trimming_select"/>
+    </parameter>
+    <parameter name="fastp-1-output_options.report_json" defaultValue="false">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="output_options.report_json"/>
+    </parameter>
+    <parameter name="fastp-1-filter_options.quality_filtering_options.disable_quality_filtering" defaultValue="false">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="filter_options.quality_filtering_options.disable_quality_filtering"/>
+    </parameter>
+    <parameter name="fastp-1-read_mod_options.umi_processing.umi_prefix" defaultValue="">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="read_mod_options.umi_processing.umi_prefix"/>
+    </parameter>
+    <parameter name="fastp-1-single_paired.single_paired_selector" defaultValue="paired_collection">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="single_paired.single_paired_selector"/>
+    </parameter>
+    <parameter name="fastp-1-filter_options.length_filtering_options.disable_length_filtering" defaultValue="false">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="filter_options.length_filtering_options.disable_length_filtering"/>
+    </parameter>
+    <parameter name="fastp-1-read_mod_options.polyx_tail_trimming.polyx_trimming_select" defaultValue="">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="read_mod_options.polyx_tail_trimming.polyx_trimming_select"/>
+    </parameter>
+    <parameter name="fastp-1-single_paired.adapter_trimming_options.disable_adapter_trimming" defaultValue="false">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="single_paired.adapter_trimming_options.disable_adapter_trimming"/>
+    </parameter>
+    <parameter name="fastp-1-read_mod_options.umi_processing.umi_loc" defaultValue="">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="read_mod_options.umi_processing.umi_loc"/>
+    </parameter>
+    <parameter name="fastp-1-output_options.report_html" defaultValue="true">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="output_options.report_html"/>
+    </parameter>
+    <parameter name="fastp-1-read_mod_options.cutting_by_quality_options.cut_by_quality5" defaultValue="false">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="read_mod_options.cutting_by_quality_options.cut_by_quality5"/>
+    </parameter>
+    <parameter name="fastp-1-read_mod_options.base_correction_options.correction" defaultValue="false">
+      <toolParameter toolId="c91db2d7-bbc2-46e6-ab4b-94f5b07f1c00" parameterName="read_mod_options.base_correction_options.correction"/>
+    </parameter>
+  </parameters>
+  <outputs>
+    <output name="fastp_output.html" fileName="fastp_output.html"/>
+  </outputs>
+  <toolRepositories>
+    <repository>
+      <name>fastp</name>
+      <owner>iuc</owner>
+      <url>https://toolshed.g2.bx.psu.edu</url>
+      <revision>dbf9c561ef29</revision>
+    </repository>
+  </toolRepositories>
+</iridaWorkflow>
