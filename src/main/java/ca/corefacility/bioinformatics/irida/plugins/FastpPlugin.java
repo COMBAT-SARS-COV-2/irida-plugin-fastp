@@ -74,7 +74,7 @@ public class FastpPlugin extends Plugin {
 		 */
 		@Override
 		public UUID getDefaultWorkflowUUID() {
-			return UUID.fromString("6e820656-4cbe-4b4f-a285-fa0f129aeff4");
+			return UUID.fromString("2dd2e11a-0df4-4132-91f1-0ef5390c2886");
 		}
 
 		/*******************************************************************************
